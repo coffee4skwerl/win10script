@@ -70,8 +70,8 @@ $tweaks = @(
 	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
 	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
 	# "DisableFirewall",            # "EnableFirewall",
-	"DisableDefender",            # "EnableDefender",
-	"DisableDefenderCloud",       # "EnableDefenderCloud",
+	"EnableDefender",            # "DisableDefender",
+	"EnableDefenderCloud",       # "DisableDefenderCloud",
 	"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
@@ -224,6 +224,66 @@ Function InstallNotepadplusplus {
 Function InstallMediaPlayerClassic {
 	Write-Output "Installing Media Player Classic (VLC Alternative)"
 	choco install mpc-hc -y
+}
+
+Function InstallNordVpn {
+	Write-Output "Installing Nord Vpn"
+	choco install nordvpn
+}
+
+Function Install Aimp {
+	Write-Output "Installing Aimp "
+	choco install aimp
+}
+
+Function Install Audacity {
+	Write-Output "Installing Audacity"
+	choco install audacity
+}
+
+Function InstallAudacity-Lame {
+	Write-Output "Installing Audacity - Lame"
+	choco install audacity-lame
+}
+
+Function InstallPaint.Net {
+	Write-Output "Installing Paint.Net"
+	choco install paint.net
+}
+
+Function InstallUninstallerPro {
+	Write-Output "Installing Uninstaller Pro"
+	choco install revouninstallerpro
+}
+
+Function InstallEverything {
+	Write-Output "Installing Everything"
+	choco install everything
+}
+
+Function InstallBraveBrowser {
+	Write-Output "Installing Brave Browser"
+	choco install brave
+}
+
+Function InstallPDFCreator {
+	Write-Output "Installing PDFcreator"
+	choco install pdfcreator
+}
+
+Function InstallScrCpy {
+	Write-Output "Installing ScrCpy "
+	choco install scrcpy
+}
+
+Function InstallEtcher{
+	Write-Output "Installing Etcher "
+	choco install etcher
+}
+
+Function InstallHWiNFO {
+	Write-Output "Installing HWiNFO"
+	choco install hwinfo 
 }
 
 ##########
